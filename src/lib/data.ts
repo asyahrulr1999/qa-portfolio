@@ -35,7 +35,7 @@ export const navItems = [
  * HERO
  * ---------------------------------------------------------------------- */
 export const headlineRoles = [
-  "Senior QA Engineer",
+  "QA Engineer",
   "QA Automation Engineer",
   "Playwright Automation",
   "API & Performance Testing",
@@ -132,7 +132,6 @@ export const skillGroups: SkillGroup[] = [
       { name: "JavaScript", level: 88 },
       { name: "TypeScript", level: 82 },
       { name: "Node.js", level: 80 },
-      { name: "Python", level: 70 },
       { name: "SQL", level: 84 },
     ],
   },

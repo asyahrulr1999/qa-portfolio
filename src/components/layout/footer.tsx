@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Mail, MessageCircle, TerminalSquare } from "lucide-react";
+import { Github, Linkedin, Mail, TerminalSquare } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { navItems } from "@/lib/data";
 
@@ -7,11 +7,6 @@ const socials = [
   { icon: Github, href: siteConfig.links.github, label: "GitHub" },
   { icon: Linkedin, href: siteConfig.links.linkedin, label: "LinkedIn" },
   { icon: Mail, href: siteConfig.links.email, label: "Email" },
-  {
-    icon: MessageCircle,
-    href: `https://wa.me/${siteConfig.whatsapp}`,
-    label: "WhatsApp",
-  },
 ];
 
 export function Footer() {

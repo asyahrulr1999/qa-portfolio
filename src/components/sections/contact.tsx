@@ -1,4 +1,4 @@
-import { Download, Github, Linkedin, Mail, MessageCircle } from "lucide-react";
+import { Download, Github, Linkedin, Mail } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Reveal, Stagger, StaggerItem } from "@/components/shared/reveal";
@@ -23,16 +23,9 @@ const channels = [
   {
     icon: Github,
     label: "GitHub",
-    value: "Anula29052024",
+    value: "asyahrulr1999",
     href: siteConfig.links.github,
     accent: "text-foreground bg-secondary",
-  },
-  {
-    icon: MessageCircle,
-    label: "WhatsApp",
-    value: siteConfig.phone,
-    href: `https://wa.me/${siteConfig.whatsapp}`,
-    accent: "text-success bg-success/10",
   },
 ];
 
@@ -49,7 +42,7 @@ export function Contact() {
               <SectionHeading
                 eyebrow="Contact"
                 title="Let's build software worth trusting"
-                description="Open to Senior QA / QA Automation roles. The fastest way to reach me is email or WhatsApp."
+                description="Open to QA Engineering / QA Automation roles. The fastest way to reach me is email."
                 align="left"
               />
               <Reveal className="mt-8 flex flex-wrap gap-3">

@@ -49,7 +49,7 @@ export function Navbar() {
             <TerminalSquare className="h-4 w-4" />
           </span>
           <span className="hidden sm:inline">
-            asyahrul<span className="text-primary">.qa</span>
+            asyahrulr<span className="text-primary">.qa</span>
           </span>
         </Link>
 

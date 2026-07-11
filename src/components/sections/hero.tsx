@@ -46,7 +46,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-success" />
             </span>
-            <span className="text-muted-foreground">Open to Senior QA roles</span>
+            <span className="text-muted-foreground">Open to QA Engineering Roles</span>
           </motion.div>
 
           <motion.h1
@@ -88,7 +88,6 @@ export function Hero() {
               <MapPin className="h-4 w-4 text-accent" />
               {siteConfig.location}
             </span>
-            <Badge variant="success">ISTQB CTFL</Badge>
           </motion.div>
 
           <motion.div

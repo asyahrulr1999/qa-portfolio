@@ -98,10 +98,12 @@ const kpis = [
 ];
 
 const results = [
-  { label: "Login", samples: "5,000", avg: "180", p95: "310", err: "0.0%" },
-  { label: "Patient Search", samples: "5,000", avg: "290", p95: "520", err: "0.1%" },
-  { label: "SEP Verify", samples: "3,000", avg: "410", p95: "760", err: "0.3%" },
-  { label: "Claim Worklist", samples: "4,000", avg: "350", p95: "640", err: "0.2%" },
+  { label: "Download Patient Drug VAT Report", samples: "5,000", avg: "180", p95: "310", err: "0.0%" },
+  { label: "Download Accounts Receivable Revenue Report", samples: "5,000", avg: "290", p95: "520", err: "0.0%" },
+  { label: "Download Journal Entry Report", samples: "3,000", avg: "410", p95: "760", err: "0.0%" },
+  { label: "Download General Ledger Report", samples: "4,000", avg: "350", p95: "640", err: "0.0%" },
+  { label: "Download Trial Balance Report", samples: "3,500", avg: "380", p95: "690", err: "0.0%" },
+  { label: "Download Statement of Financial Position Report", samples: "3,000", avg: "430", p95: "800", err: "0.0%" },
 ];
 
 export function PerformanceShowcase() {

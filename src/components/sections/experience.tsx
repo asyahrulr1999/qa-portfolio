@@ -26,7 +26,7 @@ export function Experience() {
           {/* Timeline rail */}
           <Reveal direction="right">
             <ol className="relative space-y-2">
-              <span className="absolute left-[19px] top-2 bottom-2 w-px bg-border" />
+              <span className="absolute left-[36px] top-2 bottom-2 w-px bg-border" />
               {experiences.map((item, i) => (
                 <li key={item.company}>
                   <button
