@@ -86,7 +86,6 @@ const jsonLd = {
   name: siteConfig.name,
   jobTitle: siteConfig.role,
   email: siteConfig.email,
-  telephone: siteConfig.phone,
   url: siteConfig.url,
   address: {
     "@type": "PostalAddress",
